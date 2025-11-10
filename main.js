@@ -45,7 +45,7 @@ commentBlocks.forEach((block) => {
         // Creamos un nuevo elemento de lista para el comentario
         const li = document.createElement("li");
         li.classList.add("comment-item");
-        li.textContent = text; // Aquí podrías formatear el comentario si quisieras
+        li.textContent = text;
 
         // Lo añadimos a la lista de comentarios
         list.appendChild(li);
